@@ -2,7 +2,7 @@
 
 
 **Project Title**
-CONVERTERniKENNETH: Personal Universal Converter
+ConverterBUDDYniKENNETH: Personal Universal Converter
 
 **Problem Statement**
 Converting everyday measurements manually (like Celsius to Fahrenheit or Minutes to Days) is tedious, prone to mathematical errors, and requires memorizing specific formulas. Furthermore, most standard calculators only convert one unit at a time, but users often need to see how a single value translates into multiple different units simultaneously.
