@@ -28,3 +28,96 @@ This application includes the following features implemented using Java:
 * **Data Presentation:** Your results are formatted using `printf` and `println` to ensure decimal points are clean and readable.
 * **The "Continuous" Loop:** The entire menu is wrapped in a `while` loop. After displaying your results, the program automatically loops back to the main menu, allowing you to perform another conversion immediately.
 * **Handling User Choice:** If you type a number `1-4`, the specific tool runs. If you type `5` (Quit), the loop breaks, and the program displays a goodbye message before terminating execution.
+
+Sample Run:
+******************************************
+* COVERTERniKENNETH - V1.0            *
+******************************************
+
+What would you like to convert today?
+1. Length Check (Base: Meters)
+2. Weight Check (Base: Kilograms)
+3. Heat Check (Base: Celsius)
+4. Time Check (Base: Minutes)
+5. Quit Program
+>> Type your number here: 1
+
+--- LENGTH MODE ---
+How many METERS? 10
+
+Results for 10.0 m:
+-> 0.01 Kilometers
+-> 1000.0 Centimeters
+-> 32.8084 Feet
+-> 393.7 Inches
+
+What would you like to convert today?
+1. Length Check (Base: Meters)
+2. Weight Check (Base: Kilograms)
+3. Heat Check (Base: Celsius)
+4. Time Check (Base: Minutes)
+5. Quit Program
+>> Type your number here: 2
+
+--- WEIGHT MODE ---
+How many KILOGRAMS? 10
+
+Results for 10.0 kg:
+-> 22.0462 Pounds (lbs)
+-> 352.74 Ounces
+-> 10000.0 Grams
+
+What would you like to convert today?
+1. Length Check (Base: Meters)
+2. Weight Check (Base: Kilograms)
+3. Heat Check (Base: Celsius)
+4. Time Check (Base: Minutes)
+5. Quit Program
+>> Type your number here: 3
+
+--- HEAT MODE ---
+Temperature in CELSIUS? 1
+
+Results for 1.0�C:
+-> 33.8 Fahrenheit
+-> 274.15 Kelvin
+
+What would you like to convert today?
+1. Length Check (Base: Meters)
+2. Weight Check (Base: Kilograms)
+3. Heat Check (Base: Celsius)
+4. Time Check (Base: Minutes)
+5. Quit Program
+>> Type your number here: 4
+
+--- TIME MODE ---
+Enter time in MINUTES: 10
+
+Results for 10.0 minutes:
+-> 600 Seconds
+-> 0.17 Hours
+-> 0.0069 Days
+
+What would you like to convert today?
+1. Length Check (Base: Meters)
+2. Weight Check (Base: Kilograms)
+3. Heat Check (Base: Celsius)
+4. Time Check (Base: Minutes)
+5. Quit Program
+>> Type your number here: 6
+Error: Please select a number between 1 and 5.
+
+What would you like to convert today?
+1. Length Check (Base: Meters)
+2. Weight Check (Base: Kilograms)
+3. Heat Check (Base: Celsius)
+4. Time Check (Base: Minutes)
+5. Quit Program
+>> Type your number here: 5
+Thanks for using my CONVERTER. Bye!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:12 min
+Finished at: 2026-01-02T15:28:52+08:00
+------------------------------------------------------------------------
